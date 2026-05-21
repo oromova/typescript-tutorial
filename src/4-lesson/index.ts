@@ -6,7 +6,7 @@ console.log(str);
 // Union - bu bitta variablega bir nechta type berishga aytiladi.
 
 let num:number | string = "11234" // ham number ham string qabul qila oladi
-console.log(Number(num).tofixed()); // lekin muammo bu yerda chunki .toFixed metodi faqat string type uchun ishlaydi.
+console.log(Number(num).toFixed()); // lekin muammo bu yerda chunki .toFixed metodi faqat string type uchun ishlaydi.
 
 
 let language: "uzbek" | "english" | "rus" = "rus";
